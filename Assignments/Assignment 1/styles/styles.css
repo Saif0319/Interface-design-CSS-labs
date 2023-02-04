@@ -1,0 +1,105 @@
+html {
+    /* Font base */
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    margin: 10px;
+}
+
+
+/* Main */
+main {
+    /* Giving the main tag a width, and a dark white background color plus some padding */
+    width: 1200px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+/* Increase the height between the paragraphs */
+p {
+    line-height: 1.5rem;
+}
+
+/* Drop cap */
+section:first-child p span {
+  float: left;
+  line-height: 0.9em;
+  width: 50px;
+  font-weight: bold;
+  font-size: 4em;
+  margin: 7px 15px;
+}
+
+/* adding some space between the sections */
+article section {
+    margin: 20px auto;
+}   
+
+
+/* Changing color of sub headings */
+article section:first-child h2 {
+    color: rgb(231, 135, 0);
+}
+
+article section:nth-child(2) h2 {
+    color: red;
+}
+
+article section:nth-child(3) h2 {
+    color: rgb(0, 188, 0);
+}
+
+main aside h3 {
+    color: rgb(94, 94, 94);
+    margin-top: 50px;
+}
+
+ul li {
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+/* Making the sample 3 times larger */
+blockquote {
+    font-size: 3em;
+}
+
+
+/* Footer */
+footer {
+    /* Stacking the children elements on top of each other */
+    display: flex;
+    flex-direction: column; 
+}
+
+footer a {
+    /* A bit space between the links */
+    margin: 5px;
+}
+
+footer h4 {
+    margin: 25px 5px 10px;
+}
+
+
+/* Link styles */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:focus {
+    border: 1px solid black;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+a:active {
+    color: red;
+}
